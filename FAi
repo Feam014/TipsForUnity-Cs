@@ -1,0 +1,21 @@
+using System;
+
+class Program
+{
+  public static void Main(string[] args)
+  {
+    Console.WriteLine("Hi welcome to my tutorial on unity");
+    Console.WriteLine("So i know i am writing in code but you dont have to change anything just answer a few questions");
+    Console.WriteLine("So lets get started");
+    Question("What is your name?"); // I have no idea how that works
+  }
+  
+  public static void Question(string name) //error no void 
+  {
+    //First we are going to ask for your name
+    Console.WriteLine(name);
+    string namep = Console.ReadLine(); //This reads the line on top btw
+    Console.WriteLine("oh what are the '//' for? oh if you put those there unity or c# wont read it so its good for remembering stuff");
+    Console("But lets get started")
+  }
+}
